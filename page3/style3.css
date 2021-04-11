@@ -1,0 +1,155 @@
+.container{
+    display: flex;
+    justify-content:flex-start;  
+    align-items: center; 
+    flex-direction: column;     
+    width: 918px;
+    height: 768px;
+    margin: auto;
+    padding: 0%;
+    background: #ffffff;
+}
+
+.line1{
+    display: flex;
+    align-items: center; 
+    width: 918px;
+    height: 101px;
+    margin:  0%;
+    padding: 0%;
+}
+
+.con1_1{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 0%;
+    width: 231px;
+    height: 81px;
+    background: #FF0000;
+}
+
+#text1{
+    position: absolute;
+    width: 106px;
+    height: 19px;
+    margin-left: 63px;
+    margin-top: 31px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 160%;
+    color: #000000;
+}
+
+.con1_2{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 627px;
+    height: 81px;
+    background: #FFC700;
+}
+
+#text2{
+    position: absolute;
+    width: 577px;
+    height: 68px;
+    margin-top: 16px;
+    margin-left: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 160%;
+    color: #000000;
+}
+
+.line2{
+    display: flex;
+    align-items: center; 
+    width: 918px;
+    height: 388px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.block1{
+    display: flex;
+    width: 878px;
+    height: 368px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background: #00FF0A;
+}
+
+#pic1{
+    display: flex;
+    width: 415px;
+    height: 368px;
+    background: url(./pic3/1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    float:left;
+    border-radius: 0px;
+}
+
+.con2_2{
+    display: flex;
+    width: 413px;
+    height: 322px;
+    margin-top: 24px;
+    margin-left: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 160%;
+    color: #000000;
+}
+
+.line3{
+    display: flex; 
+    width: 918px;
+    height: 259px;
+    margin: 0%;
+    padding: 0%;
+}
+
+#pic2{
+    display: flex;
+    width: 488px;
+    height: 239px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background: url(./pic3/2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    float:left;
+    border-radius: 0px;
+}
+
+.con3_1{
+    display: flex;
+    width: 370px;
+    height: 239px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background: #0500FF;
+}
+
+#id{
+    display: flex;
+    width: 370px;
+    height: 235px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 160%;
+    color: #000000;
+}
+
+
+

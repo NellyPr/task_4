@@ -1,0 +1,173 @@
+.container{
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+    flex-direction: column; 
+    width: 1366px;
+    height: 768px;
+    margin:auto;
+    background:  #ffffff;;
+}
+/* ------------FIRST BLOCK ---------------*/
+.line1{
+    display: flex;
+    align-items: center; 
+    width: 1366px;
+    height: 121px;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.con1_1{
+    display: flex;
+    margin-left: 20px;
+    padding: 0%;
+    width: 492px;
+    height: 81px;
+    background: #FF0000;
+    left: 20px;
+    top: 20px;
+    border-radius: 20px;
+}
+
+
+.con1_2{
+    display: flex;
+    margin-left: 20px;
+    width: 814px;
+    height: 81px;
+    background: #FFC700;
+    left: 532px;
+    top: 20px;
+    border-radius: 0px;
+}
+
+#text1{
+    display: flex;
+    justify-content: center;
+    margin-left: 24px;
+    margin-top: 23px;
+    padding: 0%;
+    width: 443px;
+    height: 35px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+
+#text2{
+    display: flex;
+    justify-content: center;  
+    width: 455px;
+    height: 35px;
+    margin-left: 179px;
+    margin-top: 23px;
+    padding: 0%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 160%;
+    color: #000000;
+}
+
+
+/* ***************SECOND BLOCK*************** */
+
+.line2{
+    display: flex;
+    align-items:flex-end;
+    width: 1366px;
+    height: 368px;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.con2_1{
+    display: flex;
+    justify-content:flex-end;
+    width: 1326px;
+    height: 368px;
+    margin-left: 20px;
+    background: #00FF0A;
+    left: 20px;
+    top: 121px;
+    border-radius: 0px;
+}
+
+#pic{
+    display: flex;
+    width: 521px;
+    height: 368px;
+    margin-left: 2px;
+    background: url(./pic/cat.png);
+    background-size: cover;
+    background-position: 50% 0%;
+    padding: 0%;
+}
+
+#text3{
+    display: flex;
+    width: 636px;
+    height: 125px;
+    margin-left: 167px;
+    margin-top: 88px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 160%;
+    color: #656565;
+}
+
+
+/* ****************THIRD BLOCK ***************** */
+.line3{
+    display: flex;
+    align-items: center;
+    width: 1366px;
+    height: 279px;
+}
+
+.con3_1{
+    display: flex;
+    width: 430px;
+    height: 239px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background: url(./pic/1.png);
+    background-size: cover;
+    border-radius: 0px;
+}
+
+.con3_2{
+    display: flex;
+    width: 430px;
+    height: 239px;
+    margin-top: 20px;
+    margin-left: 18px;
+    background: url(./pic/2.png);
+    background-size: cover;
+    left: 468px;
+    top: 509px;
+    border-radius: 0px;
+}
+
+.con3_3{
+    display: flex;
+    width: 430px;
+    height: 239px;
+    margin-top: 20px;
+    margin-left: 18px;
+    background: url(./pic/3.png);
+    background-size: cover;
+    background-position: 50% 0%;
+    left: 916px;
+    top: 509px;
+    border-radius: 37px;
+}
